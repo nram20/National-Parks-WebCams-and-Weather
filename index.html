@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>National Park App</title>
+  <link rel="stylesheet" href="style.css">
+  <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+
+</head>
+
+
+<body>
+<h1> National Parks: Conditions and Webcams </h1>
+<p> Check out the weather, scenery, and traffic around these famous national parks (and their surrounding areas)!</p>
+<p> This compiles both 3rd party and Govt (NPS, traffic, etc) webcams to give you an idea of what the area is really like. Because these images are streamed in real time, make sure you check out your favorite park during it's daytime hours! <p>
+
+<select class="park">
+  <option value="95389">Yosemite National Park</option>
+  <option value="84767">Zion National Park</option>
+  <option value="98362">Olympic National Park</option>
+  <option value="82190">Yellowstone National Park</option>
+  <option value="20712">Mount Rainier National Park</option>
+  <option value="84767">Zion National Park</option>
+  <option value="86023">Grand Canyon National Park</option>
+  <option value="97604">Crater Lake National Park</option>
+  <option value="92328">Death Valley National Park</option>
+  <option value="33030">Everglades National Park</option>
+  <option value="92277">Joshua Tree National Park</option>
+  <option value="96063">Lassen Volcanic National Park</option>
+  <option value="37738">Great Smoky Mountains National Pa<option value="">North Cascades National Park</option>
+  <option value="80517">Rocky Mountain National Park</option>
+
+</select>
+<button class="getPark">Get Park Weather and Cams</button>
+
+  <ul class=conditions></ul>
+
+  <div class="cams"></div>
+
+  <div class="template cam">
+    <img src="" alt="">
+    <div>Source: <span class="camid"></span></div>
+  </div>
+  
+</body>
+</html>
